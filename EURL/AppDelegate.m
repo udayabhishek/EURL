@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     NSLog(@"## UDID -> %@",[[[UIDevice currentDevice] identifierForVendor] UUIDString]);
+    NSLog(@"qwe");
     self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     
     [[UINavigationBar appearance] setTitleTextAttributes:
